@@ -21,6 +21,15 @@ export default function Page() {
               <li><span className="text-white">Website</span>: <a className="text-kw-neon underline" href="https://koncoai.tech" target="_blank" rel="noopener noreferrer">koncoai.tech</a></li>
               <li><span className="text-white">Pelatihan Perorangan</span>: <a className="text-kw-neon underline" href="https://koncowebportal.vercel.app/landing/MembershipKoncoweb" target="_blank" rel="noopener noreferrer">Membership KoncoWeb</a></li>
             </ul>
+            
+            <div className="mt-4 pt-4 border-t border-[rgba(255,255,255,0.06)]">
+              <h3 className="text-sm font-medium text-white mb-2">Sosial Media & Pelatihan</h3>
+              <div className="flex flex-wrap gap-3 text-xs text-kw-muted">
+                <a href="https://www.linkedin.com/in/mmbilly" target="_blank" rel="noopener noreferrer" className="hover:text-kw-neon lowercase">linkedin</a>
+                <a href="https://www.youtube.com/@mohmbilly" target="_blank" rel="noopener noreferrer" className="hover:text-kw-neon lowercase">youtube</a>
+                <a href="https://koncowebportal.vercel.app/landing/MembershipKoncoweb" target="_blank" rel="noopener noreferrer" className="hover:text-kw-neon lowercase">pelatihan ai perorangan</a>
+              </div>
+            </div>
           </div>
 
           <form className="card p-5 grid gap-4">
