@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = "https://koncoweb.id";
+  const base = "https://koncoai.tech";
   const routes = ["", "/layanan", "/pelatihan-ai", "/konsultan-ai", "/blog"].map(
     (p) => ({
       url: `${base}${p}`,

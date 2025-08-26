@@ -25,9 +25,6 @@ export default function Hero() {
               Konsultasi Implementasi AI
             </Link>
           </div>
-          <p className="mt-4 text-[13px] text-kw-muted">
-            Layout terinspirasi dari desain Neon, dioptimalkan mobile-first dan SEO-friendly. Lihat Neon untuk referensi gaya.
-          </p>
         </div>
       </div>
     </section>

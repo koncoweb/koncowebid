@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://koncoweb.id"),
+  metadataBase: new URL("https://koncoai.tech"),
   title: { default: "KoncoWeb", template: "%s · KoncoWeb" },
   description:
     "Konsultan & pelatihan AI. Bangun aplikasi dan web lebih cepat dengan AI. Pelatihan trending: AI untuk developer & corporate.",
@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     title: "KoncoWeb",
     description:
       "Konsultan & Pelatihan AI. Pembuatan aplikasi & web dengan AI. Solusi untuk startup, corporate, dan instansi.",
-    url: "https://koncoweb.id",
+    url: "https://koncoai.tech",
     siteName: "KoncoWeb",
     images: [{ url: "/images/og.png", width: 1200, height: 630, alt: "KoncoWeb" }],
     locale: "id_ID",
@@ -49,12 +49,12 @@ export default function RootLayout({
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "KoncoWeb",
-    url: "https://koncoweb.id",
+    url: "https://koncoai.tech",
     sameAs: [
       "https://x.com/koncoweb",
       "https://www.linkedin.com/company/koncoweb",
     ],
-    logo: "https://koncoweb.id/images/icon.png",
+    logo: "https://koncoai.tech/images/icon.png",
   };
   return (
     <html lang="id">
