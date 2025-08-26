@@ -15,9 +15,9 @@ export default function Page() {
           <div className="card p-5">
             <h2 className="font-semibold">Informasi Kontak</h2>
             <ul className="mt-3 space-y-2 text-sm text-kw-muted">
-              <li><span className="text-white">Alamat</span>: Pekalongan, Jawa Tengah, Indonesia</li>
+              <li><span className="text-white">Alamat</span>: New Citra Harmoni A19 / B35<br />Rowobelang - Batang<br />Jawa Tengah 51216</li>
               <li><span className="text-white">Telepon/WhatsApp</span>: <a className="text-kw-neon underline" href="https://wa.me/6285150731986" target="_blank" rel="noopener noreferrer">0851-5073-1986</a></li>
-              <li><span className="text-white">Email</span>: <a className="text-kw-neon underline" href="mailto:halo@koncoai.tech">halo@koncoai.tech</a></li>
+              <li><span className="text-white">Email</span>: <a className="text-kw-neon underline" href="mailto:koncoweb@gmail.com">koncoweb@gmail.com</a></li>
               <li><span className="text-white">Website</span>: <a className="text-kw-neon underline" href="https://koncoai.tech" target="_blank" rel="noopener noreferrer">koncoai.tech</a></li>
               <li><span className="text-white">Pelatihan Perorangan</span>: <a className="text-kw-neon underline" href="https://koncowebportal.vercel.app/landing/MembershipKoncoweb" target="_blank" rel="noopener noreferrer">Membership KoncoWeb</a></li>
             </ul>
@@ -33,7 +33,7 @@ export default function Page() {
 
         <div className="mt-6 flex flex-col sm:flex-row gap-3">
           <a href="https://wa.me/6285150731986" target="_blank" rel="noopener noreferrer" className="btn-primary">Chat WhatsApp</a>
-          <a href="mailto:halo@koncoai.tech" className="btn-outline">Kirim Email</a>
+          <a href="mailto:koncoweb@gmail.com" className="btn-outline">Kirim Email</a>
         </div>
       </main>
       <Footer />
